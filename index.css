@@ -1,0 +1,132 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.container__headerSection {
+  margin-bottom: 50px;
+}
+
+.mainIllustartion {
+  position: relative;
+}
+
+.mainIllustartion__caption {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 23px;
+  margin: 11px 9px;
+}
+
+.title--h1 {
+  font: 52px/65px 'Merriweather', serif;
+  margin-bottom: 6px;
+}
+
+.title--h2 {
+  font: 32px/40px 'Merriweather', serif;
+  margin-bottom: 40px;
+}
+
+.title--h3 {
+  font: bold 18px/23px 'Merriweather', serif;
+}
+
+.subheader {
+  font: 18px/22px 'Montserrat', serif;
+  max-width: 600px;
+  color: #61584F;
+}
+
+.verticalBlock {
+  max-width: 435px;
+}
+
+.verticalBlock__caption {
+  font: 16px/20px 'Montserrat', sans-serif;
+  color: #685B5B;
+  margin-top: 4px;
+}
+
+.horizontalBlock__title,
+.verticalBlock__title {
+  display: flex;
+  margin-bottom: 11px;
+  position: relative;
+  padding-left: 27px;
+}
+
+.horizontalBlock__number,
+.verticalBlock__number {
+  width: 25px;
+  height: 25px;
+  border-radius: 13px;
+  background-color: #F3ECAD;
+  text-align: center;
+  margin-right: 10px;
+  position: absolute;
+  left: -7px;
+  top: -3px;
+}
+
+.verticalBlock__text {
+  font: 17px/22px 'PT Sans', sans-serif;
+}
+
+.verticalBlocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontalBlock {
+
+}
+
+.horizontalBlock__text {
+  font: 18px/23px 'PT Sans', sans-serif;
+  margin-right: 21px;
+}
+
+.horizontalBlock__caption {
+  font: 14px/17px 'Montserrat', sans-serif;
+  color: #685B5B;
+  margin-top: 3px;	
+}
+
+.horizontalBlock__bottomBlock {
+  display: flex;
+}
+
+.blockWithCaptions { display: flex; justify-content: space-between; }
+.blockWithCaptions__left { max-width: 656px; width:  100%; }
+.blockWithCaptions__right { max-width: 264px; }
+.blockWithCaptions__list { 
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+}
+
+.caption--right {
+  font: 16px/21px 'PT Serif', serif;
+  color: #233D95;
+}
+
+p {margin: 0; padding: 0;}
+
+/*font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;*/
