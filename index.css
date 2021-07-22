@@ -46,6 +46,11 @@ html, body {
   font: bold 18px/23px 'Merriweather', serif;
 }
 
+.historyTitle {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
 .subheader {
   font: 18px/22px 'Montserrat', serif;
   max-width: 600px;
