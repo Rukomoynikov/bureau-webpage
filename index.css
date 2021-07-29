@@ -48,7 +48,6 @@ html, body {
 
 .historyTitle {
   margin-bottom: 20px;
-  margin-top: 50px;
 }
 
 .subheader {
@@ -61,6 +60,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .verticalBlock {
@@ -78,8 +78,12 @@ html, body {
 .verticalBlock__caption {
   font: 16px/20px 'Montserrat', sans-serif;
   color: #685B5B;
-  margin-top: 4px;
 }
+
+.verticalBlock__caption--bigger {
+  font-size: 17px
+}
+
 
 .horizontalBlock__title,
 .verticalBlock__title {
@@ -87,6 +91,7 @@ html, body {
   margin-bottom: 11px;
   position: relative;
   padding-left: 27px;
+  margin-top: 20px;
 }
 
 .horizontalBlock__number,
@@ -107,12 +112,28 @@ html, body {
 }
 
 .horizontalBlock {
+  margin-bottom: 32px;
+}
 
+.horizontalBlock--fourth {
+  margin-bottom: 28px;
+}
+
+.horizontalBlock--five {
+  margin-bottom: 20px;
+}
+
+.horizontalBlock:last-of-type {
+  margin-bottom: 28px;
 }
 
 .horizontalBlock__text {
   font: 18px/23px 'PT Sans', sans-serif;
   margin-right: 21px;
+}
+
+.horizontalBlock__text--limited {
+  max-width: 655px;
 }
 
 .horizontalBlock__caption {
@@ -135,7 +156,15 @@ html, body {
   }
 }
 
-.blockWithCaptions { display: flex; justify-content: space-between; margin: 20px 0;}
+.horizontalBlock__pictureContainer {
+  margin-top: 7px;
+}
+
+.horizontalBlock__pictureContainer--fourth {
+  margin-top: 5px;
+}
+
+.blockWithCaptions { display: flex; justify-content: space-between; margin: 20px 0 15px 0;}
 .blockWithCaptions__left { max-width: 656px; width:  100%; }
 .blockWithCaptions__right { max-width: 264px; width: 100%; }
 .blockWithCaptions__list { 
@@ -170,8 +199,7 @@ html, body {
 .quote {
   font: 48px/54px 'PT Serif', serif;
   color: #9B5004;
-  max-width: 655px;
-  margin: 48px 0 71px auto;
+  margin: 48px 0 48px 156px;
   padding: 0;
   position: relative;
 }
